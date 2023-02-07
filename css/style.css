@@ -47,12 +47,7 @@ header {
     color: white;
 }
 
-.login {
-    width: 25%;
-    line-height: 60px;
-    text-align: right;
-    border-bottom: 50%;
-}
+
 
 h1 {
     width: 70%;
@@ -168,8 +163,7 @@ p {
 .stelline {
     background-image: url(../img/stars.svg);
     background-position: center;
-    background-size: cover;
-
+    background-size: contain;
 }
 
 
@@ -180,7 +174,6 @@ footer {
 
 .footer-row {
     padding: 10px 0 15px;
-    height: 400px;
 }
 
 .footer-row-bottoni {
@@ -191,32 +184,25 @@ footer {
     height: 100%;
     width: calc((100% / 6) * 2);
     color: rgb(73, 155, 221);
+    margin-top: 50px;
 }
 
 .blocco-piccolo-footer {
-    height: 350px;
+    height: 100%;
     width: calc(100% / 6);
-    background-color: rgb(99, 159, 173);
-    border: 2px black dashed;
+    margin-top: 50px;
 }
 
 hr {
     color: white;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .footer-row-bottoni .container {
-    align-items: center;
-    height: 50px;
+    height: 100px;
     justify-content: space-between;
-}
 
-.bottoni {
-    background-color: rgb(255, 140, 230);
-    border: 1px black dashed;
-}
-
-.box {
-    background-color: aquamarine;
 }
 
 .italia {
@@ -228,4 +214,77 @@ hr {
 .lingua {
     margin-top: 15px;
     padding-left: 10px;
+}
+
+.social {
+    color: white;
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.categoria {
+    color:  rgb(73, 155, 221);
+    line-height: 2.5rem;
+}
+
+a {
+    line-height: 2.5rem;
+    color: white;
+}
+
+
+/* BOTTONI */
+.bottoni {
+    width: 25%;
+    line-height: 60px;
+    text-align: right;
+}
+
+.bottone-accesso {
+    height: 2rem;
+    width: 5rem;
+    border-radius: 10px 10px;
+    border-color: white;
+}
+
+.bottone-registrati {
+    color: white;
+    background-color:  rgb(73, 155, 221);
+    height: 2rem;
+    width: 5rem;
+    border-radius: 10px 10px;
+    border-color:  rgb(73, 155, 221);
+}
+
+.bottone-scarica {
+    margin-top: 30px;
+    color: white;
+    background-color:  rgb(73, 155, 221);
+    height: 3rem;
+    width: 12rem;
+    border-radius: 20px 20px;
+    border-color: rgb(73, 155, 221);
+    font-size: 1rem;
+}
+
+.bottone-scarica-header {
+    margin-top: 30px;
+    color: rgb(8, 23, 27);
+    background-color:  rgb(73, 155, 221);
+    height: 3rem;
+    width: 12rem;
+    border-radius: 20px 20px;
+    border-color: rgb(73, 155, 221);
+    font-size: 1rem;
+}
+
+.bottone-browser {
+    margin-top: 30px;
+    color: white;
+    background-color: rgb(8, 23, 27);
+    height: 3rem;
+    width: 15rem;
+    border-radius: 20px 20px;
+    border-color: rgb(8, 23, 27);
+    font-size: 1rem;
 }
