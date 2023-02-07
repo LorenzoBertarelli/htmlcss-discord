@@ -51,7 +51,7 @@ header {
     width: 25%;
     line-height: 60px;
     text-align: right;
-    border-bottom: 50%; 
+    border-bottom: 50%;
 }
 
 h1 {
@@ -77,37 +77,37 @@ h1 {
 /* MAIN */
 
 /* CORPO */
-.row .container {
+.row-1 .container {
     align-items: center;
     height: 600px;
 }
 
 .row-2 .container {
     align-items: center;
-    height: 400px;
+    height:600px;
+}
+
+.row-3 .container {
+    align-items: center;
+    height: 600px;
 }
 
 .last-row .container {
     align-items: center;
-    height: 800px;
-}
-
-.row-2 {
-    background-color: grey;
-}
-
-.last-row {
-    height: 800px;
-    background-color: grey;
+    height: 1000px;
 }
 
 h2 {
     font-size: 2.5rem;
 }
 
+p {
+    line-height: 1.6rem;
+}
+
 .blocco-cielo {
     width: 80%;
-    height: 400px;   
+    height: 400px;
 }
 
 .blocco-rosa {
@@ -117,16 +117,61 @@ h2 {
 
 .blocco-mago {
     width: 80%;
-    height: 400px; 
-    order: -2; 
+    height: 400px;
+    order: 1;
+    margin-top: 60px;
+}
+
+.blocco-orco {
+    width: 80%;
+    height: 400px;
+}
+
+.titolo-mago {
+    margin-top: 1.6rem;
 }
 
 .blocco-verde {
     width: 100%;
     height: 750px;
-    border: 2px black dashed;
-    background-color: green;
+    align-items: center;
+    text-align: center;
 }
+
+.titolo-orco {
+    margin-top: -1.6rem;
+}
+
+.testo-orco {
+    margin-top: 2rem;
+}
+
+.coniglio-titolo {
+    text-align: center;
+}
+
+.coniglio-testo {
+    text-align: center;
+    margin: 20px;
+}
+
+.row-stelline {
+    align-items: center;
+    height: 200px;
+}
+
+.testo-stelline {
+    text-align: center;
+    width: 100%;
+}
+
+.stelline {
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    background-size: cover;
+
+}
+
 
 /* FOOTER */
 footer {
@@ -143,10 +188,9 @@ footer {
 }
 
 .blocco-grande-footer {
-    height: 350px;
+    height: 100%;
     width: calc((100% / 6) * 2);
-    background-color: rgb(255, 140, 230);
-    border: 2px black dashed;
+    color: rgb(73, 155, 221);
 }
 
 .blocco-piccolo-footer {
@@ -173,4 +217,15 @@ hr {
 
 .box {
     background-color: aquamarine;
+}
+
+.italia {
+    width: 20px;
+    height: 15px;
+    margin-top: 15px;
+}
+
+.lingua {
+    margin-top: 15px;
+    padding-left: 10px;
 }
